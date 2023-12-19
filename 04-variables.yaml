@@ -6,5 +6,7 @@
     Duration: "110 HRS"
   tasks:
   - name: ping the server
+    vars:
+      Course: "DevOps with AWS, Docker and K8"
     ansible.builtin.debug:
       msg: "Hello I am learning {{Course}}, Duration: {{Duration}}, Trainer: {{Trainer}}"
