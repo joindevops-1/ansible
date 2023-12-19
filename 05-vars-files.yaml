@@ -1,0 +1,8 @@
+- name: ping the server
+  hosts: web
+  vars_files:
+  - variables.yaml
+  tasks:
+  - name: ping the server
+    ansible.builtin.debug:
+      msg: "Hello I am learning {{Course}}, Duration: {{Duration}}, Trainer: {{Trainer}}"
