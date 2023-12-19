@@ -2,6 +2,7 @@
 192.168.1.4
 [web]
 34.227.77.60
+[web:vars]
 Course=DevOps
 Trainer="Sivakumar Reddy"
 [mongodb]
