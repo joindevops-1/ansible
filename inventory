@@ -6,6 +6,6 @@
 [mongodb]
 172.189.234.14
 172.189.234.15
-[roboshop:childern]
+[roboshop:children]
 web
 mongodb
